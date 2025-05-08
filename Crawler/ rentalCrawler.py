@@ -13,12 +13,12 @@ import datetime
 urllib3.disable_warnings(InsecureRequestWarning)
 
 # LINE Channel Config
-# LINE_CHANNEL_ACCESS_TOKEN = "CCCIRx+kcuU2XmwOh8qY/GkEMQiP5IxGnIHoJgQuN8FQ233XbfyYvzsd44Lb++j5Afz56l2KObchrWb0vq753H5dmsv/ABYPxbu2CoaC4qwhbZVM4w7ywdliX3z0wKJ9CwzwKjtZ/mUo1qiuYgw7UgdB04t89/1O/w1cDnyilFU="  # 請替換成您的 Channel Access Token
-# LINE_USER_ID = "U8588fb1fa69ed939416fb6235988ec35"  # 請替換成您的 User ID
+# LINE_CHANNEL_ACCESS_TOKEN = ""  # Channel Access Token
+# LINE_USER_ID = ""  # User ID
 # LINE_API_URL = "https://api.line.me/v2/bot/message/push"
 
 # Google Chat Webhook
-GOOGLE_CHAT_WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAAA0Wr2GQg/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=DbuYawV9tEjOSqix66w-3iPazKvIB3wMFrqs68RUQlw"  # 請替換成您的 Google Chat Webhook URL
+GOOGLE_CHAT_WEBHOOK_URL = ""  # Google Chat Webhook URL
 
 # Google Chat Message
 def send_message(message):
